@@ -1,5 +1,3 @@
-#Use this command on terminal: sed -i -f renumber_pdb_amber.txt file.pdb 
-#NOTE: if warnings appear in gromacs obout HIS, you have to change it with HIP, HIE or HID (for amber forcefield)
 s/HB3 TRP/HB1 TRP/
 s/HB3 ASH/HB1 ASH/
 s/HB3 GLH/HB1 GLH/
