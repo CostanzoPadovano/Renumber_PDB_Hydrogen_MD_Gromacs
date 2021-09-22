@@ -1,5 +1,6 @@
 # Renumber_PDB_Hydrogen_Molecular_Dynimics_GROMACS
-This script is useful to change hydrogen number in file pdb for amber force field. 
+When we start Gromacs program to generate the file gro with pdb2gmxm, sometimes appers an error about the numbers of hydrogen.
+This script is useful to change the specific number of hydrogens in file pdb for amber force field. 
 
 Use this command on terminal(linux): sed -i -f renumber_pdb_amber.txt file.pdb 
 
