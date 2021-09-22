@@ -1,4 +1,4 @@
-# Renumber_PDB_Hydrogen_Molecular_Dynimics_GROMACS
+# Renumber_PDB_Hydrogen_Molecular_Dynamics_GROMACS
 When we start Gromacs program to generate the file gro with pdb2gmx, sometimes appers an error about the numbers of hydrogen.
 This script is useful to change the specific number of hydrogens in file pdb for amber force field. 
 
