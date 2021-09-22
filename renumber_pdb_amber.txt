@@ -1,0 +1,36 @@
+#Use this command on terminal: sed -i -f renumber_pdb_amber.txt file.pdb 
+#NOTE: if warnings appear in gromacs obout HIS, you have to change it with HIP, HIE or HID (for amber forcefield)
+s/HB3 TRP/HB1 TRP/
+s/HB3 ASH/HB1 ASH/
+s/HB3 GLH/HB1 GLH/
+s/HB3 HIP/HB1 HIP/
+s/HB3 LYS/HB1 LYS/
+s/HB3 SER/HB1 SER/
+s/HB3 LEU/HB1 LEU/
+s/HB3 ASP/HB1 ASP/
+s/HB3 GLN/HB1 GLN/
+s/HB3 MET/HB1 MET/
+s/HB3 GLU/HB1 GLU/
+s/HB3 PRO/HB1 PRO/
+s/HB3 TYR/HB1 TYR/
+s/HB3 ARG/HB1 ARG/
+s/HB3 PHE/HB1 PHE/
+s/HB3 ASN/HB1 ASN/
+s/HB3 HID/HB1 HID/
+s/HB3 HIE/HB1 HIE/
+s/HB3 CYS/HB1 CYS/
+s/HD3 ARG/HD1 ARG/
+s/HD3 LYS/HD1 LYS/
+s/HD3 PRO/HD1 PRO/
+s/HG3 PRO/HG1 PRO/
+s/HG3 LYS/HG1 LYS/
+s/HG3 MET/HG1 MET/
+s/HG3 GLU/HG1 GLU/
+s/HG3 ARG/HG1 ARG/
+s/HG3 GLN/HG1 GLN/
+s/HG3 GLH/HG1 GLH/
+s/HG13 ILE/HG11 ILE/ 
+s/HA3 GLY/HA1 GLY/  
+s/HE3 LYS/HE1 LYS/
+
+  
