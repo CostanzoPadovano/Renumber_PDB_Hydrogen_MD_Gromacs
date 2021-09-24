@@ -4,4 +4,4 @@ This script is useful to change the specific number of hydrogens in file pdb for
 
 Use this command on terminal(linux): sed -i -f renumber_pdb_amber.txt file.pdb 
 
-NOTE: if warnings appear in gromacs obout HIS, you have to change it with HIP, HIE or HID
+NOTE: if warnings appear in gromacs obout HIS, you have to change it with HIP, HIE or HID. Use a tool like PDB2PQR (https://server.poissonboltzmann.org/pdb2pqr) to protonate the protein. 
