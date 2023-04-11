@@ -20,11 +20,11 @@ if st.button("Esegui lo script renumber_pdb_amber.txt"):
         st.warning("Seleziona un file PDB.")
     else:
         # Salva il file PDB in una directory temporanea
-        with open(os.path.join("temp", pdb_file.name), "wb") as f:
+        with open(os.path.join("temp", pdb_file), "wb") as f:
             f.write(pdb_file.getvalue())
             
         # Costruisci il comando per eseguire lo script
-        cmd = f"sed -i -f {script_path} temp/{pdb_file.name}"
+        cmd = f"sed -i -f {script_path} temp/{pdb_file}"
         
         # Esegui lo script
         os.system(cmd)
